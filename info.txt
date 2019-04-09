@@ -1,0 +1,11 @@
+Creamos el JSON
+npm init -> enter enter enter
+
+Instalamos Express
+
+npm install express --save
+
+npm install body-parser sirve para que los parametros de POST se serialicen 
+
+
+####Entorno de desarrollo y de Produccion

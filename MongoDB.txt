@@ -1,0 +1,42 @@
+MongoDB
+
+1- vamos a la pagina /descargasopruabalo gratis/
+
+2- vamos a server o community Server descargamos el paquete 
+instalamos con next next next
+
+3- ahí vamos  a installation instructions 
+   nos vamos a  Create database directory 
+   cd c:\
+   md "\data\db"
+   "C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="c:\data\db"  dependindo la hubicacion de MongoDB
+     se ejecuta mongo no debe serrrace 
+
+Robo 3T
+   
+   Es un manejador de MongoDB
+
+1-Decargamos en la pagina
+
+2-Intalamos next,next,next
+ 
+   al abrirlo podemos ver que no hay conexion
+   el puerto por defecto de mongo es el 27017 eso se puede ver en la terminal hasta arriba
+
+3-Create checamos el puerto y salvamos
+
+4-Conectamos en Conect
+   Podemos observar las bases de datos que tenemos
+5-Damos clic derecho y creamos BdD
+
+6-Se crea una nueva Base de datos y ahí tiene:
+
+  Collections = Tabla 
+
+
+  Todo esto le podemos dar click derecho para crear
+  a) click derecho inster document y nos sale una pantalla para escribir un JSON
+      escribimos algo y damos salvar 
+      si checamos ahí estara nuestro objeto creado 
+      NOTA: mondgo crea un atributo _id por defautl
+      
